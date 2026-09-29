@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ReportSetting extends Model
+{
+    protected $fillable = ['choir_status'];
+}
